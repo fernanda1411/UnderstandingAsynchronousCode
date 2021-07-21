@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Processing forms with events</title>
+    <script src="forms/app.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <label>What's your name?
+        <input id="name" type="text">
+      </label>
+    <br>
+      <label>What language do you speak?
+        <select id="lang">
+          <option value="en">English</option>
+          <option value="es">Spanish</option>
+          <option value="pt">Portuguese</option>
+        </select>
+      </label>
+    <br>
+      <button id="button" type="button">Greet me, please!</button>
+      <div id="message"></div>
+    </div>
+
+    <!-- <script>
+      var onButtonClick = function() {
+      var name = document.getElementById('name').value;
+      var lang = document.getElementById('lang').value;
+      var greeting;
+
+      if (lang === 'es') {
+        greeting = `Hola, ${name}`;
+      } else if (lang === 'pt') {
+        greeting = `Ola, ${name}`;
+      } else {
+        greeting = `Hello, ${name}`;
+      }
+
+      document.getElementById('message').textContent += greeting;
+      }
+
+      button.addEventListener('click', onButtonClick);
+    </script> -->
+
+    </body>
+  </body>
+</html>
